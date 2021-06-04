@@ -13,8 +13,8 @@ public class DAY1_QUES2 {
         numbers [3] = (a-(numbers [0]*10000 + numbers [1]*1000 + numbers [2]*100))/10;
         numbers [4] = (a-(numbers [0]*10000 + numbers [1]*1000 + numbers [2]*100 + numbers [3]*10));
        for (int i=0; i<=4;i++){
-           System.out.print(numbers[i]);
-           System.out.print("   ");
+           System.out.print("" +numbers[i]+ "   ");
+           
        }
     }
 }
