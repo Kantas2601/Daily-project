@@ -2,8 +2,8 @@ package com.company;
 
 public class recur {
 
-        static int factorial(int n){
-            int z;
+        static long factorial(int n){
+            long z;
             if (n==0 || n==1){
                  z =1;
             } else {
